@@ -29,10 +29,10 @@ const Body = () =>{
         path:'/edit-student/:id',
         element:<EditStudent/>
     },
-    {
-        path:'*',
-        element:<NotFound/>
-    },
+    // {
+    //     path:'*',
+    //     element:<NotFound/>
+    // },
 ]);
     return([
         <div>

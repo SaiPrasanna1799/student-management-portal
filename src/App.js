@@ -1,9 +1,12 @@
 import Body from "./Components/Body";
+import { StudentsProvider } from "./Components/StudentsContext";
 
 function App() {
   return (
     <div className="App">
-      <Body/>
+      <StudentsProvider>
+      <Body />
+    </StudentsProvider>
     </div>
   );
 }
